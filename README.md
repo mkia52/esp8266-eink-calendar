@@ -6,3 +6,5 @@ A simple, low-power desktop calendar that connects to Wi-Fi once a day, grabs th
 
 * **Wemos D1 mini v4.0.0:** 
 * **Waveshare 2.9 inch E-Paper Module:**
+
+*TO BE CONTINUED
