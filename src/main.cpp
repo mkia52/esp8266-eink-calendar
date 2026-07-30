@@ -48,7 +48,7 @@ void setup()
     uint32_t seconds_to_midnight = (86400UL - (60 * (60 * timeinfo.tm_hour + timeinfo.tm_min) + timeinfo.tm_sec));
     uint64_t time_to_tomorrow = (uint64_t)seconds_to_midnight * 1000000ULL;
     uint64_t sleep_time = time_to_tomorrow > MAX_SLEEP_US ? MAX_SLEEP_US : time_to_tomorrow;
-    ESP.deepSleep(sleep_time); // test failed
+    ESP.deepSleep(sleep_time); 
 }
 
 void loop()
